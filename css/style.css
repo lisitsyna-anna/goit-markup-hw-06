@@ -447,6 +447,11 @@ img {
   background-color: var(--bg-hero-futter);
 }
 
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
 /* Контакты в футтере */
 .contacts .item:not(:last-child) {
   margin-bottom: 9px;
@@ -482,11 +487,6 @@ img {
 .contacts .link:hover,
 .contacts .link:focus {
   color: var(--accent-color);
-}
-
-.footer .container {
-  display: flex;
-  align-items: baseline;
 }
 
 .container-address {
